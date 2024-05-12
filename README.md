@@ -43,7 +43,7 @@ Borrow out = A'Bin + A'B + BBin
 
 
 **Procedure**
-
+```
 ## Full Adder:
 1.Open Quartus II and create a new project.
 2.Use schematic design entry to draw the full adder circuit. 
@@ -56,10 +56,11 @@ Borrow out = A'Bin + A'B + BBin
 2.Draw the full subtractor circuit using schematic design. 
 3.The circuit includes XOR, AND, OR gates to perform subtraction. 
 4.Compile, simulate, implement, and program the design similarly to the full adder.
-
+```
 **Program:**
 
 /* Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming. 
+```
 ## Full_adder
 module fulladd_top(a,b,cin,sum,carry);
 input a,b,cin;
@@ -84,6 +85,7 @@ assign DIFF = a ^ b ^ Bin;
 endmodule
 Developed by:DAKSHATA G
 RegisterNumber: 212223240021
+```
 */
 
 
